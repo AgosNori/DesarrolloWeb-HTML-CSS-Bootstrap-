@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Kanit:wght@100&family=Roboto+Condensed:wght@300&family=Roboto+Mono:wght@100&display=swap');
+*{ /* estilos universales */
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+header {
+    background-color: rgb(168, 194, 195);
+    height: 60px;
+
+}
+
+.nav .nav-item .nav-link {
+    color: black;
+    margin-top: 23px;
+}
+
+.nav {
+    margin-top: -50px;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+}
+
+header h4 {
+    display: flex;
+    margin-left: 120px;
+    margin-top: 12px;
+
+}
+
+#banner .imgbanner {
+    height: 500px;
+}
+
+/* estilos tarjetas*/
+#tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/*
+#tarjetas .card1{
+    margin-left: 30%;
+    margin-top:-32% ;
+}
+#tarjetas .card{
+    margin-left: 10px;
+}*/
+#ubicacion .mapa {
+    margin-left: 20%;
+}
+
+#ubicacion {
+    background-color: aquamarine;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color:  rgb(168, 194, 195);
+    height: 200px;
+}
+footer .redes{
+
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+  
+}
+a{
+    margin-top: 10px;
+}
+small{
+    display: flex;
+}
