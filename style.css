@@ -33,6 +33,7 @@ header h4 {
 
 /* estilos tarjetas*/
 #tarjetas {
+    margin-top: 70px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -59,6 +60,14 @@ h3 {
     display: flex;
     justify-content: center;
 }
+
+h4{
+    display: flex;
+    justify-content: center;
+}
+
+/* estilos footer */
+
 footer{
     background-color:  rgb(168, 194, 195);
     height: 350px
@@ -68,8 +77,8 @@ footer .redes{
     display: flex;
     flex-direction: column;
     gap:10px;
-
 }
+
 a{
     margin-top: 40px;
 }
@@ -79,8 +88,12 @@ form{
     margin-left: 50%;
     margin-top: -22%;
 }
+
 small{
     display: flex;
     justify-content: center;
     margin-top: 30px;
+}
+form .btn{
+    margin-top: 10px;
 }
